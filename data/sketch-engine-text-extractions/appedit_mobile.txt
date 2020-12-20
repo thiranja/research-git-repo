@@ -1,0 +1,471 @@
+<doc url="https://www.appeditmobile.com/2020/01/06/android-internet-usage-monitoring-who-consume-all-the-data-from-your-network/" parent_folder="web1" id="file17483487" filename="android-internet-usage-monitoring-who-consume-all-the-data-from-your-network">
+<p> Android Internet Usage Monitoring – Who consume all the data from your Network </p>
+<p> Internet is no longer the mysterious thing we experience in our childhood. It is everywhere now, it is seemingly impossible to find a place without an internet connection anywhere in the globe. </p>
+<p> And we already had super-fast internet connections, no one is seeing a dialogue box saying it takes 35 years to complete the downloading today just as in the ’90s. </p>
+<p> With this advancements, everybody uses the internet, including the app on our mobile phones. That may results in a good experience for you as you can experience new and fresh things constantly as the things get updated constantly. But it’s not the same case with your internet bills, especially when you are using mobile data. And having too many apps that run in the background and killing your bandwidth can cause you to experience the 90’s internet. </p>
+<p> So tracking data usage is good for both your bills and also for the internet speed. But the real problem is the inbuild Data Usage monitoring system in android is really the most primitive thing someone can think of when thinking about tracking the data usage. </p>
+<p> It only can only show the data usage of the device in the last 30 days, that’s all. And that thing is already there in your monthly bill, and nothing is needed for that. So clearly we need an alternative like Konnekt. </p>
+<p> Konnekt is a really powerful tool for monitoring the data usage and it has the following features. </p>
+<p> Track data usage according to any time interval like daily, weekly or monthly. </p>
+<p> Monitor data usage mobile data and WiFi data separately. </p>
+<p> Monitor data usage in each sim separately. </p>
+<p> Track the data usage in every app in your device separately. </p>
+<p> Track data usage in both system apps and user install apps and uninstall user apps that consume so much data gives very little value for you directly from Konnekt. </p>
+<p> If there are system apps that use too much data and you rarely used or not used at all, as they can not be uninstalled you have the option to force stop them within the Konnekt app. </p>
+<p> Konnekt is one of the best apps in data usage monitoring but it doesn’t mean it only serves that, It is one of the best network tools available in the play store, here are few key main features of Konnekt instead of data usage tracking, </p>
+<p> Performing Internet speed test( With build-in Ookla speed test you get the most advanced internet tests) </p>
+<p> View information about your WiFi connection, such as (router information and device network interface information) </p>
+<p> Easily access router gateway, and tweak settings of the WiFi router quickly from your mobile </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/tag/android-tricks/" parent_folder="web1" id="file17483481" filename="android-tricks">
+<p> We all come through this situation when a friend visits you and ask for the WiFi password or even you got a new laptop and needs to connect it with the WiFi. So you try to retrieve your WiFi password… Read More »How to view saved WiFi passwords on Android </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/2020/01/20/best-alarm-app-to-get-you-out-of-bed-doesnt-matter-how-heavy-your-sleep-is/" parent_folder="web1" id="file17483485" filename="best-alarm-app-to-get-you-out-of-bed-doesnt-matter-how-heavy-your-sleep-is">
+<p> Best Alarm app to get you out of bed doesn’t matter how heavy your sleep is? </p>
+<p> Some people are happy with their Android or IOS inbuild alarm app, and some don’t need an alarm at all. And there is a huge chunk of society which doesn’t belong to either of these groups. The best possible reason you are reading this is you are one of those heavy sleepers. </p>
+<p> Ignoring an alarm is not a simple thing, Getting late to work constantly, or finding out you are 1 hour late for a one of your most special occasion already being on the bed. Such things can change your entire life. And most bosses out there are not ready to accept it as an excuse. </p>
+<p> So here I’m going to introduce a simple app that can solve this problem, and I’m using this app for a few years now and it never disappoints me. The name of the app is I Can’t Wake UP and it is available in both Android and IOS. </p>
+<p> Well if the soft sounds of the default alarm app are, literary too soft to you, Simply switch to a heavy noise that you can not ignore like an emergency alarm. If you think it is still not loud enough to wake you up, you can also use the setting for “Extra loud” which will create a loud sound you never thought your mobile phone will produce. </p>
+<p> Ok, the first concern of you once you see the above fact is that you will have a terrible wake-up with thrown away from the bed. Of cause, you can have it if you wish, but if it isn’t you can use the “Smooth Wake UP” option which will gradually increase the volume of the alarm, without giving you a sudden shock </p>
+<p> Still not happy? Then you are a snoozer who just keeps snoozing the alarm or turn off the alarm completely, even without being fully conscious about what you are doing. Stil there is help, and this is the most interesting part of the app also. </p>
+<p> You can select some tasks to complete when the alarm clock is ringing when setting the alarm. And you can not snooze or turn off the alarm without completing those tasks. By the time you complete those tasks, you are fully conscious and you know that you need to wake up right now. </p>
+<p> And there are few kinds of tasks you can set for your alarm with I can’t wake UP such as Math tasks, Rewrite tasks and Shake tasks. You can choose any kind of task that you think suits best for you. </p>
+<p> And the coolest part is you can adjust the difficulty of each task, as you wish, So you do not need to spend all morning for solving random math problems to turn off the alarm or complete a one-digit addition and sleep again. </p>
+<p> Apart from I Can’t Wake UP, there are few other apps such as Alarmy, Timely and Sleep Cycle that serve the same purpose with slightly different approaches, If you feel like I Can’t wake UP is not for you try out one of those. </p>
+<p> So we love to hear your opinion about these apps, will these help you to wake up? and what is the best alarm app according to you? </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/contact-us/" parent_folder="web1" id="file17483492" filename="contact-us">
+<p> Contact Us </p>
+<p> If you any problem related to the posts on this blog, or need to make any suggestions or for any other reason if you need to contact us, you can use this form to contact us. </p>
+<p> Last </p>
+<p> Email * </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/2020/08/17/how-to-get-ios-14-privacy-feature-camera-and-microphone-access-indication-on-android/" parent_folder="web1" id="file17483491" filename="how-to-get-ios-14-privacy-feature-camera-and-microphone-access-indication-on-android">
+<p> How to get IOS 14 privacy feature camera and microphone access indication on Android </p>
+<p> If you take a look at IOS 14 you may already know about the cool new privacy feature of indicating Camera and Microphone access feature, which indicate you whenever an app is using one of them with green or orange indication dot just above the iPhone’s signal meter. Where green is used to indicate camera access meanwhile orange is used to indicate microphone access. </p>
+<p> This is a great feature for someone who thinks about privacy, especially with the fact that we here more and more news about apps stealing users data these days, and it is nice to have also within the android phones. </p>
+<p> If you are thinking that is a useful feature you must also have in your android, this post is for you. While this hasn’t been officially supported by the Android OS yet, there are some apps you can use to enable this feature in android. </p>
+<p> Wisom </p>
+<p> Wisom is an app inspired by the IOS 14 privacy feature and indicates you whenever any app is accessing your camera or microphone. It needs usage access permissions to log and identify apps access to camera and microphone. and it also needs, draw over other apps permission to display the indication dot. </p>
+<p> This app also comes with some cool customization options, you can choose any shape and color for your indicator. It also can change the position and the size of the indicator. </p>
+<p> And this app hasn’t stopped just by indicating camera and microphone access it also logs the access of camera and microphone of each app and presents it you on the app’s home activity, where you can check for any suspicious behaviour of apps and take action. </p>
+<p> Access Dot </p>
+<p> Access Dot is exactly a replica of IOS privacy feature, it uses an accessibility service so of cause it needs to grant accessibility access to function properly and indicates with a green or orange indication dot just below the battery icon. It also comes with a variety of customization options including, changing the color, position and the size of the indication dot. </p>
+<p> Access dot also has the takes the IOS privacy feature further and logs the access of every app camera and microphone use, which you can check whenever you want. </p>
+<p> Final thought </p>
+<p> Both of these apps are almost identical in terms of the functionalities, though there are differences in the way they access the phone, Wisom use usage access mean while the Access Dot uses the accessibility services. And also they offer slightly different options when it comes customization. </p>
+<p> In both of these apps, indicator dot appear below the status bar, as these apps are not system implementations I think that is acceptable. However this indication is small and do not obstuct your view. </p>
+<p> As both of these apps use background services both these apps can have little impact on the battery life of your device. In terms of the impact on battery, Wisom might be stepping ahead just a little bit as it does not use an accessibility service. And both of these apps only require around 10 MB of disk space which is not a large overhead for modern devices. </p>
+<p> So finally it is hard to choose a one over another, try them both and stick with what is most appealing. </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/2019/11/20/how-to-view-saved-wifi-passwords-on-android/" parent_folder="web1" id="file17483490" filename="how-to-view-saved-wifi-passwords-on-android">
+<p> How to view saved WiFi passwords on Android </p>
+<p> We all come through this situation when a friend visits you and ask for the WiFi password or even you got a new laptop and needs to connect it with the WiFi. So you try to retrieve your WiFi password from your android and it seems it’s not that simple as you expect it to be. </p>
+<p> So another problem with this is you may search google for this and keeps reading solutions and solutions, and Surprisingly they seem to be providing conflicting information about the same problem. Some say you definitely need Root and some say, you can view saved WiFi password even without root. </p>
+<p> So in this article, we are going to make this topic finished once and for all. You know all you need to know about viewing WiFi passwords in Android after reading this. However, if you are in a hurry and really do not have the time to read the full article, You can directly jump into the solution you need according to your requirement root or not from below. </p>
+<p> Introduction </p>
+<p> Retrieving the saved WiFi passwords is not a hard task in a PC, maybe you need to run a command or two depending on the operating system. However, if you google the problem there is a straight forward answer and no uncertainty. </p>
+<p> The situation is different for the Android devices, To view saved wifi passwords we need Root permissions If not still there is a workaround but it can not be guaranteed for results. </p>
+<p> So let’s take a brief look at what is the root and why we need root and then move for the actual methods for retrieving WiFi passwords. </p>
+<p> What is Root – Why we need Root </p>
+<p> So if you are familiar with Windows or Linux PC operating systems, you know that there are few types of user accounts, in windows Administrator and user accounts, and in Linux, there is root user or otherwise Superuser and user accounts. </p>
+<p> Most of the time if you are only using your PC and not any other shared computer resource you may not be much aware of the above accounts as you always got an Administrator account in it. </p>
+<p> So this is the point, either Administrator on Windows or Superuser on Linux gets all the privileges within the computer, meanwhile, user accounts have some limited capabilities. I’m not going to dive deeper into those privileges here. </p>
+<p> By default, Android offers a user account for you which has limited privileges, so you can only, work on your workspace and ultimately you do not privilege permissions to access system files in your android mobile. </p>
+<p> So, what is rooting? Rooting is the process we used to grant root permissions(Superuser permissions) for an ordinary android user account. </p>
+<p> So, why we need root? wifi passwords are saved within system files in your device, in order to read them, you must have permission to access them, no matter whether you try it to do it yourself or via an App. </p>
+<p> How to view saved WiFi passwords on Android – With Root </p>
+<p> If your device is rooted you can easily access WiFi passwords saved in your device. If you wish to view them manually you can use a root file explorer like ES file explorer and view the WiFi password file in your device. </p>
+<p> The file used to save WiFi passwords changed according to the android version of your device if your device running in an Android version below android oreo, WiFi passwords are saved in a file named wpa_supplicant.conf and can be found on the path /data/misc/wifi/wpa_supplicant.conf and in devices on or above Android oreo WifiConfigStore.xml is used to save WiFi passwords and it can be found here /data/misc/wifi/WifiConfigStore.xml </p>
+<p> If you not much familiar with working with system files I do not recommend the above method as it can cause irreversible damage to your device. As an alternative, you can use an app like Show WiFi Password which safely read and present WiFi passwords for you. </p>
+<p> Show WiFi password works with all Android versions, which are at use today. And also have some more useful options you may love. </p>
+<p> How to view saved WiFi passwords on Android – Without Root </p>
+<p> So can we retrieve saved WiFi passwords from your device? the simple answer is no we cannot. But there is a famous workaround most people use to hack around this. </p>
+<p> This workaround is not 100% guaranteed and it can only be used to view the password of currently connected WiFi network. with having above in mind lets get on to it, if you feel it worth your time. </p>
+<p> Even though we can not access saved passwords without root permission in our android devices, the android system can not restrict us from accessing it from our WiFi router. So here we are going to access the gateway (commonly called router setup page ) and read the password there. </p>
+<p> Router gateway is the interface provided for you to tweak settings in your WiFI router. So the same thing can be used to view or change your WiFi password (WiFi preshared key). </p>
+<p> You can access the router gateway with an internet browser, you simply have to type the IP address on the URL bar in your browser and visit it. That IP is 198.168.0.1 or 198.168.1.1 in most cases. And also have a possibility to be something else, this is printed on your router if above IP addresses do not work you can try that. </p>
+<p> Then the next step is logging in to the gateway with the username and password. As most of the users do not change the default username and password on the router most probably it may be the default username and password which is admin and admin in most cases and this information is also printed on the router. </p>
+<p> Now go to Wireless –> Wireless Security and here you have your password. As you may already have guessed this process is a little painful workaround if you going to do all it yourself. And Show WiFi password app can come handy here. It retrieves the router gateway from your browser and loads it for you and also guess the most probable default username and password for your router according to its brand. Which makes your work so much easier. Give it a try from here. </p>
+<p> How to view saved WiFi passwords on Android Using a computer with ADB </p>
+<p> This method is a little bit techier than previous too this is most probably another way to view file with WiFi passwords if you have the root access and this may work to no-root users also. </p>
+<p> Even- with this method root permissions are needed to work properly. So what is “May work to No-Root users”? I saw some people claim that this method works for even without root. However, I do not have personally experienced that happens nor believe this can happens in an Android Production build device. </p>
+<p> ADB is the short form for Android Debug Bridge, This is a tool heavily used by Android developers. They use it to perform various operations in developing and testing android apps and also android OS itself. </p>
+<p> What we are going to do here is really simple compared to the most common use cases of this tool. So anyone of you can easily follow this guide if you like to try this. </p>
+<p> What we going to do here is pull out the file which contains the WiFi passwords from your android device and copy it to your computer using the ADB. And then you can view it from your computer. </p>
+<p> So these are the steps, to perform this. </p>
+<p> Install ADB on your computer. Follow this guide for installation if you need help. </p>
+<p> Enable USB debugging in your android device, follow this guide and connect to this device. </p>
+<p> Run CMD or Terminal according to your operating system </p>
+<p> Run the commands to check whether ADB is working and it should list your connected Android devices if it correctly works </p>
+<p> Then run this command to grant root permission for your ADB shell. </p>
+<p> Now finally if your Android device is android oreo or above run or if your device uses a version below oreo then run to pull out the file containing the wifi passwords and copy them to your computer. </p>
+<p> Note:- here or is the destination path of the file you can replace it with whatever you want. </p>
+<p> Most common problems on these </p>
+<p> Isn’t there any app works for No-Root devices? </p>
+<p> No, the problem is with the android system security, It does not allow to access system file to the user or an app to access system files without root permissions. </p>
+<p> Even Show WiFi Password app just helps you to access the router gateway and guessing the default username and password. Any app can not bypass the android system security. </p>
+<p> When viewing WiFi passwords with Root permission with Show WiFi Password app from any other Method long sequence of numbers and letters(Hash code) is shown instead of real passwords, Why and How to solve? </p>
+<p> This is a known issue, In some android devices, an extra layer of encryption is used it causes this. This is most common with Samsung devices. And this can be solved with the following workaround </p>
+<p> Get a root file explorer like ES file explorer from Play Store </p>
+<p> And to </p>
+<p> And open the file for editing </p>
+<p> And find out the line </p>
+<p> Finally, change it to </p>
+<p> Note:- Do not edit anything else on this file. It can brick your device. And editing this line also has a risk of losing your saved WiFi network data for the first time. </p>
+<p> And that’s all about WiFi password on your android device, do not forget to make some note in the comment section do these methods work for you? </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/2020/01/05/let-notifications-knock-you-instead-of-continuously-checking-for-notifications/" parent_folder="web1" id="file17483484" filename="let-notifications-knock-you-instead-of-continuously-checking-for-notifications">
+<p> Let Notifications knock you, instead of continuously checking for Notifications </p>
+<p> Notifications are meant to be, make your day easy, but unfortunately, it has flipped the sides recently. Everybody needs your attention, so every app on your device try to push the maximum amount of notification they can. So the number of useful notification very low. </p>
+<p> How much of your working time is wasted for constantly checking for notification, Well your working on your new project full focused in your full potential, and suddenly your phone notification sound plays, what if can be maybe your boss reminding you a meeting or your wife reminding something as she always does, and you stop your work and go for your phone? </p>
+<p> And when you get there there is “Check out this cool cat video”, from one of your apps. </p>
+<p> And you swipe it out and come to work and you will regain your focus in five or ten minutes, So what’s the big deal here why should we care about this? As I said earlier Number of notifications you receive is increasing day by day. So does the number of time you distracted from your work, and it can kill a lot of time, and you are not even aware of it. </p>
+<p> Can turning off all the notification help? </p>
+<p> Well, going back to the stone age, is not a good answer. Being quickly notified is really important in a lot of occasions, you can take immediate actions on things when you know them early. </p>
+<p> But limiting the number of apps can really help, If you do not want to know about newly released music albums immediately, go-ahead and disable notifications for your music app. </p>
+<p> Then what is the best thing to do? </p>
+<p> Well simply glimpse on your notifications. Glimpse notifications is an app that solves this problem in a very interesting way. When you receive a notification glimpse notifications app automatically turn on your display, and give you a quick glance on it. </p>
+<p> Let’s think about it again, when a notification sound rings, you have to stop your work and grab the phone unlock and check the notification. So what Glimpse Notification does is it turns on your display once a new notification came at you so you can take a quick look at it even without touching the phone. </p>
+<p> So if that notification is an important one you can go ahead and unlock the phone and engage with it, and if it is not important you can simply ignore it knowing that is not important even without touching the phone. </p>
+<p> So you do not need to break out of your work occasionally with useless things. Simply keep your phone on your desk, that’s all you have to do. </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/2019/12/23/mobile-data-icon-missing-on-notification-bar-how-to-solve/" parent_folder="web1" id="file17483496" filename="mobile-data-icon-missing-on-notification-bar-how-to-solve">
+<p> Mobile data icon missing on Notification bar Quick tile, How to Solve </p>
+<p> True, there is a lot of WiFi today. But still, it does not mean, we need to remove the mobile data from devices. I mean still, there are a lot of situations, where we need to connect to the internet when you do not have a WiFi connection around. </p>
+<p> Is this something wrong with my phone? </p>
+<p> The simple answer is NO. This is not software damage or something which makes the mobile data icon disappear from your notification bar. This problem of missing the mobile data icon problem is common with relatively new devices including popular Samsung products such as S6, S7, S8, S9, Note 6, Note 7, etc. </p>
+<p> Instead, this was something the manufacturer of your phone push on you. May be to discourage mobile data use and increase the use of WiFi, I don’t know the exact reason but for whatever the reason they make the change and now we do not have the mobile data icon. </p>
+<p> Is it only the icon or no mobile data at all? </p>
+<p> No mobile data haven’t been removed from these devices, it’s only the icon. But you do not have the quick and short way to switch on mobile data instead, you have to take the long path. </p>
+<p> Go to Settings </p>
+<p> Then go to CONNECTIONS </p>
+<p> Then go to Data Usage </p>
+<p> Finally, tap on the Mobile data to enable and disable mobile data </p>
+<p> Is there a way to solve this? </p>
+<p> Yes, here we are going to show you two methods to restore the missing mobile data icon. </p>
+<p> Using Mobile Data Switch App </p>
+<p> Mobile Data Switch app is specially designed for the mobile data icon missing android phones. Instead of the long path we mentioned above, you can simply tap on the Mobile Data Switch apps shortcut, it directly launches Data Usage screen for you, which enables you to switch On and OFF mobile data with a single touch. </p>
+<p> Not only that it also has an inbuilt app launcher, which makes this a really helpful app. Where you can turn on mobile data with one touch and then directly launch Facebook, Instagram, Tik Tok or whatever your favorite app with another touch. Which saves you a lot of time. </p>
+<p> And the best part is this app works with any device, Even with devices we do not find this problem, and it is easy as downloading a small app from Google Play Store. </p>
+<p> Using your computer and ADB </p>
+<p> This method needs some technical skills to execute. And Also this method also does not work for every device like the above method. But this also has a positive side, this method can restore your mobile data icon as those golden old days. </p>
+<p> In some devices, the manufacturer hasn’t completely removed the mobile data switch. Instead, they just have disabled it in a way that regular users can not enable it. Here we are going to enable it back with your computer using a tool called ADB. </p>
+<p> ADB stands for Android Debug Bridge which is a tool that is mostly used by Android developers and android technicians. So we are going to do here is enable developer option on your phone and then access a hidden setting to enable mobile data. Which is not available to regular users. </p>
+<p> Install ADB on your computer. Follow this guide for installation if you need help. </p>
+<p> Enable USB debugging in your android device, follow this guide and connect to this device. </p>
+<p> Run CMD or Terminal according to your operating system </p>
+<p> Run the commands to check whether ADB is working and it should list your connected Android devices if it correctly works </p>
+<p> Run the command to enter the phones command line </p>
+<p> Now you have to enter the command to load settings of the quick settings (Icons on the notification bar) </p>
+<p> The above command will print all the icons present on the quick settings, copy them to notepad. (Be careful with this step you have to copy all the items correctly if you missed any it may cause unexpected results) </p>
+<p> Now append another item to the list, as (You must add it within quotes after the last item on the list put a comma and then add ) </p>
+<p> Now copy the command in step 6 and add it to the beginning of the notepad text (put a space between the command and the list). The command on the note pad must look something like this </p>
+<p> Now you have a command to update your quick setting icons copy it to command prompt or terminal and execute the command </p>
+<p> As I said earlier this method seems to be out of the reach for a general user. If you feel like this is too intense, go with the first method it is completely risk-free and 100% working. </p>
+<p> 2 thoughts on “Mobile data icon missing on Notification bar Quick tile, How to Solve” </p>
+<p> If you need any help regarding accessing mobile data feel free to ask any questions here. </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/tag/mobile-data-switch/" parent_folder="web1" id="file17483499" filename="mobile-data-switch">
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/mobile-data-switch-privacy-policy/" parent_folder="web1" id="file17483489" filename="mobile-data-switch-privacy-policy">
+<p> Mobile Data Switch – Privacy Policy </p>
+<p> We do not collect any of your data, but we use third-party libraries which may do check their privacy policies. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/privacy-policy/" parent_folder="web1" id="file17483480" filename="privacy-policy">
+<p> Privacy Policy </p>
+<p> Effective date: 2020-08-19 </p>
+<p> 1. Introduction </p>
+<p> Welcome to AppEDit Mobile. </p>
+<p> AppEDit Mobile (“us”, “we”, or “our”) operates appeditmobile.com (hereinafter referred to as “Service”). </p>
+<p> Our Privacy Policy governs your visit to appeditmobile.com, and explains how we collect, safeguard and disclose information that results from your use of our Service. </p>
+<p> We use your data to provide and improve Service. By using Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions. </p>
+<p> Our Terms and Conditions (“Terms”) govern all use of our Service and together with the Privacy Policy constitutes your agreement with us (“agreement”). </p>
+<p> 2. Definitions </p>
+<p> SERVICE means the appeditmobile.com website operated by AppEDit Mobile. </p>
+<p> PERSONAL DATA means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession). </p>
+<p> USAGE DATA is data collected automatically either generated by the use of Service or from Service infrastructure itself (for example, the duration of a page visit). </p>
+<p> COOKIES are small files stored on your device (computer or mobile device). </p>
+<p> DATA CONTROLLER means a natural or legal person who (either alone or jointly or in common with other persons) determines the purposes for which and the manner in which any personal data are, or are to be, processed. For the purpose of this Privacy Policy, we are a Data Controller of your data. </p>
+<p> DATA PROCESSORS (OR SERVICE PROVIDERS) means any natural or legal person who processes the data on behalf of the Data Controller. We may use the services of various Service Providers in order to process your data more effectively. </p>
+<p> DATA SUBJECT is any living individual who is the subject of Personal Data. </p>
+<p> THE USER is the individual using our Service. The User corresponds to the Data Subject, who is the subject of Personal Data. </p>
+<p> 3. Information Collection and Use </p>
+<p> We collect several different types of information for various purposes to provide and improve our Service to you. </p>
+<p> 4. Types of Data Collected </p>
+<p> Personal Data </p>
+<p> While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to: </p>
+<p> 0.1. Email address </p>
+<p> 0.2. First name and last name </p>
+<p> 0.3. Phone number </p>
+<p> 0.4. Address, Country, State, Province, ZIP/Postal code, City </p>
+<p> 0.5. Cookies and Usage Data </p>
+<p> We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link. </p>
+<p> Usage Data </p>
+<p> We may also collect information that your browser sends whenever you visit our Service or when you access Service by or through any device (“Usage Data”). </p>
+<p> This Usage Data may include information such as your computer’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data. </p>
+<p> When you access Service with a device, this Usage Data may include information such as the type of device you use, your device unique ID, the IP address of your device, your device operating system, the type of Internet browser you use, unique device identifiers and other diagnostic data. </p>
+<p> Tracking Cookies Data </p>
+<p> We use cookies and similar tracking technologies to track the activity on our Service and we hold certain information. </p>
+<p> Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies are also used such as beacons, tags and scripts to collect and track information and to improve and analyze our Service. </p>
+<p> You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service. </p>
+<p> Examples of Cookies we use: </p>
+<p> 0.1. Session Cookies: We use Session Cookies to operate our Service. </p>
+<p> 0.2. Preference Cookies: We use Preference Cookies to remember your preferences and various settings. </p>
+<p> 0.3. Security Cookies: We use Security Cookies for security purposes. </p>
+<p> 0.4. Advertising Cookies: Advertising Cookies are used to serve you with advertisements that may be relevant to you and your interests. </p>
+<p> Other Data </p>
+<p> While using our Service, we may also collect the following information: sex, age, date of birth, place of birth, passport details, citizenship, registration at place of residence and actual address, telephone number (work, mobile), details of documents on education, qualification, professional training, employment agreements, NDA agreements, information on bonuses and compensation, information on marital status, family members, social security (or other taxpayer identification) number, office location and other data. </p>
+<p> 5. Use of Data </p>
+<p> AppEDit Mobile uses the collected data for various purposes: </p>
+<p> 0.1. to provide and maintain our Service; </p>
+<p> 0.2. to notify you about changes to our Service; </p>
+<p> 0.3. to allow you to participate in interactive features of our Service when you choose to do so; </p>
+<p> 0.4. to provide customer support; </p>
+<p> 0.5. to gather analysis or valuable information so that we can improve our Service; </p>
+<p> 0.6. to monitor the usage of our Service; </p>
+<p> 0.7. to detect, prevent and address technical issues; </p>
+<p> 0.8. to fulfil any other purpose for which you provide it; </p>
+<p> 0.9. to carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection; </p>
+<p> 0.10. to provide you with notices about your account and/or subscription, including expiration and renewal notices, email-instructions, etc.; </p>
+<p> 0.11. to provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information; </p>
+<p> 0.12. in any other way we may describe when you provide the information; </p>
+<p> 0.13. for any other purpose with your consent. </p>
+<p> 6. Retention of Data </p>
+<p> We will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies. </p>
+<p> We will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods. </p>
+<p> 7. Transfer of Data </p>
+<p> Your information, including Personal Data, may be transferred to – and maintained on – computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction. </p>
+<p> If you are located outside USA and choose to provide information to us, please note that we transfer the data, including Personal Data, to USA and process it there. </p>
+<p> Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer. </p>
+<p> AppEDit Mobile will take all the steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information. </p>
+<p> 8. Disclosure of Data </p>
+<p> We may disclose personal information that we collect, or you provide: </p>
+<p> 0.1. Disclosure for Law Enforcement. </p>
+<p> Under certain circumstances, we may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities. </p>
+<p> 0.2. Business Transaction. </p>
+<p> If we or our subsidiaries are involved in a merger, acquisition or asset sale, your Personal Data may be transferred. </p>
+<p> 0.3. Other cases. We may disclose your information also: </p>
+<p> 0.3.1. to our subsidiaries and affiliates; </p>
+<p> 0.3.2. to contractors, service providers, and other third parties we use to support our business; </p>
+<p> 0.3.3. to fulfill the purpose for which you provide it; </p>
+<p> 0.3.4. for the purpose of including your company’s logo on our website; </p>
+<p> 0.3.5. for any other purpose disclosed by us when you provide the information; </p>
+<p> 0.3.6. with your consent in any other cases; </p>
+<p> 0.3.7. if we believe disclosure is necessary or appropriate to protect the rights, property, or safety of the Company, our customers, or others. </p>
+<p> 9. Security of Data </p>
+<p> The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security. </p>
+<p> 10. Your Data Protection Rights Under General Data Protection Regulation (GDPR) </p>
+<p> If you are a resident of the European Union (EU) and European Economic Area (EEA), you have certain data protection rights, covered by GDPR. </p>
+<p> We aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data. </p>
+<p> If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please email us at appeditmobile@gmail.com. </p>
+<p> In certain circumstances, you have the following data protection rights: </p>
+<p> 0.1. the right to access, update or to delete the information we have on you; </p>
+<p> 0.2. the right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete; </p>
+<p> 0.3. the right to object. You have the right to object to our processing of your Personal Data; </p>
+<p> 0.4. the right of restriction. You have the right to request that we restrict the processing of your personal information; </p>
+<p> 0.5. the right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable and commonly used format; </p>
+<p> 0.6. the right to withdraw consent. You also have the right to withdraw your consent at any time where we rely on your consent to process your personal information; </p>
+<p> Please note that we may ask you to verify your identity before responding to such requests. Please note, we may not able to provide Service without some necessary data. </p>
+<p> You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA). </p>
+<p> 11. Your Data Protection Rights under the California Privacy Protection Act (CalOPPA) </p>
+<p> CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law’s reach stretches well beyond California to require a person or company in the United States (and conceivable the world) that operates websites collecting personally identifiable information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals with whom it is being shared, and to comply with this policy. </p>
+<p> According to CalOPPA we agree to the following: </p>
+<p> 0.1. users can visit our site anonymously; </p>
+<p> 0.2. our Privacy Policy link includes the word “Privacy”, and can easily be found on the home page of our website; </p>
+<p> 0.3. users will be notified of any privacy policy changes on our Privacy Policy Page; </p>
+<p> 0.4. users are able to change their personal information by emailing us at appeditmobile@gmail.com. </p>
+<p> Our Policy on “Do Not Track” Signals: </p>
+<p> We honor Do Not Track signals and do not track, plant cookies, or use advertising when a Do Not Track browser mechanism is in place. Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked. </p>
+<p> You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser. </p>
+<p> 12. Your Data Protection Rights under the California Consumer Privacy Act (CCPA) </p>
+<p> If you are a California resident, you are entitled to learn what data we collect about you, ask to delete your data and not to sell (share) it. To exercise your data protection rights, you can make certain requests and ask us: </p>
+<p> 0.1. What personal information we have about you. If you make this request, we will return to you: </p>
+<p> 0.0.1. The categories of personal information we have collected about you. </p>
+<p> 0.0.2. The categories of sources from which we collect your personal information. </p>
+<p> 0.0.3. The business or commercial purpose for collecting or selling your personal information. </p>
+<p> 0.0.4. The categories of third parties with whom we share personal information. </p>
+<p> 0.0.5. The specific pieces of personal information we have collected about you. </p>
+<p> 0.0.6. A list of categories of personal information that we have sold, along with the category of any other company we sold it to. If we have not sold your personal information, we will inform you of that fact. </p>
+<p> 0.0.7. A list of categories of personal information that we have disclosed for a business purpose, along with the category of any other company we shared it with. </p>
+<p> Please note, you are entitled to ask us to provide you with this information up to two times in a rolling twelve-month period. When you make this request, the information provided may be limited to the personal information we collected about you in the previous 12 months. </p>
+<p> 0.2. To delete your personal information. If you make this request, we will delete the personal information we hold about you as of the date of your request from our records and direct any service providers to do the same. In some cases, deletion may be accomplished through de-identification of the information. If you choose to delete your personal information, you may not be able to use certain functions that require your personal information to operate. </p>
+<p> 0.3. To stop selling your personal information. We don’t sell or rent your personal information to any third parties for any purpose. We do not sell your personal information for monetary consideration. However, under some circumstances, a transfer of personal information to a third party, or within our family of companies, without monetary consideration may be considered a “sale” under California law. You are the only owner of your Personal Data and can request disclosure or deletion at any time. </p>
+<p> If you submit a request to stop selling your personal information, we will stop making such transfers. </p>
+<p> Please note, if you ask us to delete or stop selling your data, it may impact your experience with us, and you may not be able to participate in certain programs or membership services which require the usage of your personal information to function. But in no circumstances, we will discriminate against you for exercising your rights. </p>
+<p> To exercise your California data protection rights described above, please send your request(s) by email: appeditmobile@gmail.com. </p>
+<p> Your data protection rights, described above, are covered by the CCPA, short for the California Consumer Privacy Act. To find out more, visit the official California Legislative Information website. The CCPA took effect on 01/01/2020. </p>
+<p> 13. Service Providers </p>
+<p> We may employ third party companies and individuals to facilitate our Service (“Service Providers”), provide Service on our behalf, perform Service-related services or assist us in analysing how our Service is used. </p>
+<p> These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose. </p>
+<p> 14. Analytics </p>
+<p> We may use third-party Service Providers to monitor and analyze the use of our Service. </p>
+<p> 15. CI/CD tools </p>
+<p> We may use third-party Service Providers to automate the development process of our Service. </p>
+<p> 16. Advertising </p>
+<p> We may use third-party Service Providers to show advertisements to you to help support and maintain our Service. </p>
+<p> 17. Behavioral Remarketing </p>
+<p> We may use remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimise and serve ads based on your past visits to our Service. </p>
+<p> 18. Links to Other Sites </p>
+<p> Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit. </p>
+<p> We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services. </p>
+<p> Our Services are not intended for use by children under the age of 18 (“Child” or “Children”). </p>
+<p> We do not knowingly collect personally identifiable information from Children under 18. If you become aware that a Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from Children without verification of parental consent, we take steps to remove that information from our servers. </p>
+<p> 20. Changes to This Privacy Policy </p>
+<p> We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. </p>
+<p> We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update “effective date” at the top of this Privacy Policy. </p>
+<p> You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page. </p>
+<p> 21. Contact Us </p>
+<p> If you have any questions about this Privacy Policy, please contact us by email: appeditmobile@gmail.com. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/tag/show-wifi-password/" parent_folder="web1" id="file17483498" filename="show-wifi-password">
+<p> show wifi password </p>
+<p> We all come through this situation when a friend visits you and ask for the WiFi password or even you got a new laptop and needs to connect it with the WiFi. So you try to retrieve your WiFi password… Read More »How to view saved WiFi passwords on Android </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/2019/11/28/what-you-know-about-rooting-android/" parent_folder="web1" id="file17483482" filename="what-you-know-about-rooting-android">
+<p> What you know about Rooting (Android) </p>
+<p> As you know every Android device is running on the Linux kernel, What rooting can do for your device is you can get complete access to (superuser) everything in your operating system as on Linux. Rooting gives you complete permission as well as it allows you to access the administrative privileges. because Root is also a User. Your android device that has Linux permissions and file-system ownership. when you sign in and you are allowed to do some certain things based on your user permission. Relevant to that you can do anything to any file anywhere in the system. like we can uninstall applications that are forced on us or unstable and harmful applications which cause the system of the device. With the superuser power, we have the power to do anything. Let’s see what are the advantages of Rooting, </p>
+<p> You have full access to the system kernel and system directory: as part of the Rooting, you have to install the user manager(SuperSu is the main one right now) using the root manager. </p>
+<p> Battery life and phone speed will be Boosting </p>
+<p> Ads can be blocked in any applications in your device. </p>
+<p> Install incompatible applications </p>
+<p> Full application control, including the edit applications, ability to backup, restore, or remove items in your device. </p>
+<p> It gives you the ability to install custom firmware (custom ROM) or software that allows to level up your device performance by the Rooted device. </p>
+<p> More display options and internal storage </p>
+<p> CPU clocking </p>
+<p> Now you have an idea what kind of advantages you can achieve through Rooting your device. When you root your device, you are simply adding a standard Linux function that was removed. as I mentioned before there is a file called “su” is placed in the system and given the permissions So that you have the ability to achieve more benefits by rooting your android device. Let’s see what are the risks of rooting, </p>
+<p> No more warranty is given by the manufacturing company. </p>
+<p> There may be having some update problems when it comes to rooted android devices. </p>
+<p> Ad-blocking — if we take the developer’s side of view when most of the users root their devices, there is no opportunity to find some revenue for the developers through the ads. </p>
+<p> As a conclusion of the basic idea of rooting, now you know what is rooting and what are the advantages and disadvantages of rooting of an android. It is up to you to take your decisions to avoid risks and have the advantage of rooting your android device. So hope this article will help you to have some idea about rooting and we will update you more about rooting android by our next article. </p>
+<p> Name * </p>
+<p> Email * </p>
+<p> Website </p>
+<p> Save my name, email, and website in this browser for the next time I comment. </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
+<doc url="https://www.appeditmobile.com/" parent_folder="web1" id="file17483483" filename="www.appeditmobile.com">
+<p> As you know every Android device is running on the Linux kernel, What rooting can do for your device is you can get complete access to (superuser) everything in your operating system as on Linux. Rooting gives you complete permission… Read More »What you know about Rooting (Android) </p>
+<p> We all come through this situation when a friend visits you and ask for the WiFi password or even you got a new laptop and needs to connect it with the WiFi. So you try to retrieve your WiFi password… Read More »How to view saved WiFi passwords on Android </p>
+<p> This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. Cookie settingsACCEPT </p>
+<p> Privacy & Cookies Policy </p>
+<p> Close </p>
+<p> Privacy Overview </p>
+<p> This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience. </p>
+<p> Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </p>
+<p> Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website. </p>
+</doc>
