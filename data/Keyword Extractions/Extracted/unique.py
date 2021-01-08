@@ -117,3 +117,16 @@ with file:
 						header[1] : 'Not Set'})
 
 file.close()
+
+file = open('keywordset.csv','w', newline='')
+
+with file:
+	header = ['Keyword']
+	writer = csv.DictWriter(file, fieldnames = header)
+
+	writer.writeheader()
+	# writing data row wise to the csv file
+	for keyword in subSetRemovedKeywords:
+		writer.writerow({header[0] : keyword})
+
+file.close()
