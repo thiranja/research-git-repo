@@ -16,39 +16,41 @@ encording1 = encodeSentence(sentence1)
 encording2 = encodeSentence(sentence2)
 encording3 = encodeSentence(sentence3)
 
-from scipy import spatial
+print(encording1)
 
-dist1 = spatial.distance.cosine(encording1.detach(),encording2.detach())
-dist2 = spatial.distance.cosine(encording1.detach(),encording3.detach())
+# from scipy import spatial
 
-print(dist1)
-print(dist2)
+# dist1 = spatial.distance.cosine(encording1.detach(),encording2.detach())
+# dist2 = spatial.distance.cosine(encording1.detach(),encording3.detach())
 
-import numpy as np
-import pandas as pd
+# print(dist1)
+# print(dist2)
 
-def fimport(filename,sep=',',encoding='utf-16',skiprows=0, header=0):
-	frame = pd.DataFrame()
-	frame = pd.read_csv(filename,sep=sep, skiprows=skiprows, header=header, error_bad_lines=False)
-	return frame
+# import numpy as np
+# import pandas as pd
 
-filename = 'keywordset.csv'
-keywords = []
+# def fimport(filename,sep=',',encoding='utf-16',skiprows=0, header=0):
+# 	frame = pd.DataFrame()
+# 	frame = pd.read_csv(filename,sep=sep, skiprows=skiprows, header=header, error_bad_lines=False)
+# 	return frame
 
-df = fimport(filename)
+# filename = 'keywordset.csv'
+# keywords = []
 
-for i in range(0,len(df)):
-    keywords.append( df.loc[i,'Keyword'] )
+# df = fimport(filename)
 
-keywordEncodeingPairs = []
+# for i in range(0,len(df)):
+#     keywords.append( df.loc[i,'Keyword'] )
 
-from KeywordEncodePair import KewordEncodePair
+# keywordEncodeingPairs = []
 
-for keyword in keywords:
-    encode = encodeSentence(keyword)
-    pair = KewordEncodePair(keyword, encode)
-    # keywordEncodeingPairs.append(pair)
+# from KeywordEncodePair import KewordEncodePair
 
-print(len(keywordEncodeingPairs))
+# for keyword in keywords:
+#     encode = encodeSentence(keyword)
+#     pair = KewordEncodePair(keyword, encode)
+#     # keywordEncodeingPairs.append(pair)
+
+# print(len(keywordEncodeingPairs))
 
 
