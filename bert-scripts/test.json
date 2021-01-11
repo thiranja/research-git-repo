@@ -1,0 +1,1 @@
+{"dimetionality": 2, "noOfCentroids": 2, "centroids": [{"id": 0, "dimetionality": 2, "cordinates": [0.4, 0.3], "items": ["A", "B", "C"]}, {"id": 1, "dimetionality": 2, "cordinates": [0.8, 0.8], "items": ["D", "E", "F"]}]}
