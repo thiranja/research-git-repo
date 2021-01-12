@@ -35,10 +35,15 @@ def encodeSentence(sentence):
     seg_ids   = torch.tensor(seg_ids).unsqueeze(0)
 
     hidden_reps, cls_head = bert_model(token_ids, attention_mask = attn_mask,token_type_ids = seg_ids)
-    #print(type(hidden_reps))
+    # print(type(hidden_reps))
     # print(hidden_reps.shape ) #hidden states of each token in inout sequence 
     #print(cls_head.shape ) #hidden states of each [cls]
-    return cls_head
+    # Try to using various embedding as sentence encording
+    # encording = cls_head
+    encording = cls_head
+    # print(cls_head.shape )
+    # print(encording.shape ) 
+    return encording.detach().cpu().numpy()
 
 
 # sentence='I really enjoyed this movie a lot.'

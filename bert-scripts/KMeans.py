@@ -2,6 +2,7 @@ from random import random
 import numpy as np
 from scipy import spatial
 import json
+from sbert_sentence_encording import encodeSentence
 
 def loadModelFromFile(filename):
     with open(filename) as json_file:
@@ -21,7 +22,7 @@ def loadModelFromFile(filename):
             itemsArray = centroidItem['items']
             cordinates = np.zeros(shape=(1,dimetionality))
             for i in range(0,len(cordinatesArray)):
-                cordinates[0][i] = cordinatesArray[i]
+                cordinates[0][i] = np.float32(cordinatesArray[i])
             # print(cordinates)
             items = []
             for i in range(0,len(itemsArray)):
@@ -103,7 +104,7 @@ class KMeans:
                 # print("Printing value")
                 # print(value)
                 # print("value printed")
-                centroid['cordinates'].append(value)
+                centroid['cordinates'].append(str(value))
             centroid['items'] = []
             for item in centroidItem.items:
                 # print(item.getLabel())
@@ -111,6 +112,30 @@ class KMeans:
             model['centroids'].append(centroid)
         with open(filename,'w') as output:
             json.dump(model,output)
+
+    def getMatchingKeyword(self,phrase):
+        encording = encodeSentence(phrase)
+        # getting the winiing centroid
+        centroidDistances = []
+        for centroid in self.centroids:
+            centroidVector = centroid.getDimenVector()
+            distance = spatial.distance.euclidean(encording, centroidVector)
+            centroidDistances.append(distance)
+        winnerCentroidId = centroidDistances.index(min(centroidDistances))
+        winnerCentroid = self.centroids[winnerCentroidId]
+
+        # getting the most simillar keyword item from the centroid
+        keywordDistances = []
+        for keywordItem in winnerCentroid.items:
+            itemVector = keywordItem.getVector()
+            distance = spatial.distance.euclidean(encording, itemVector)
+            keywordDistances.append(distance)
+        winnerKeywordId = keywordDistances.index(min(keywordDistances))
+        winnerKeyword = winnerCentroid.items[winnerKeywordId]
+
+        return winnerKeyword.getLabel()
+        
+
 
 
 
@@ -165,7 +190,6 @@ class Item:
 
     def getLabel(self):
         return self.lable
-from sentence_encording import encodeSentence
 
 class KeywordItem:
 
@@ -177,45 +201,53 @@ class KeywordItem:
     
     def getVector(self):
         encording = encodeSentence(self.getLabel())
-        return encording.detach().cpu().numpy()
+        return encording
 
-import pandas as pd
+# import pandas as pd
 
-def fimport(filename,sep=',',encoding='utf-16',skiprows=0, header=0):
-	frame = pd.DataFrame()
-	frame = pd.read_csv(filename,sep=sep, skiprows=skiprows, header=header, error_bad_lines=False)
-	return frame
+# def fimport(filename,sep=',',encoding='utf-16',skiprows=0, header=0):
+# 	frame = pd.DataFrame()
+# 	frame = pd.read_csv(filename,sep=sep, skiprows=skiprows, header=header, error_bad_lines=False)
+# 	return frame
 
-filename = 'keywordset.csv'
-keywords = []
+# filename = 'keywordset.csv'
+# keywords = []
 
-df = fimport(filename)
+# df = fimport(filename)
 
-for i in range(0, len(df)):
-    keywords.append( KeywordItem(df.loc[i,'Keyword']) )
+# for i in range(0, len(df)):
+#     keywords.append( KeywordItem(df.loc[i,'Keyword']) )
 
-centroidList = []
-for i in range(0,100):
-    centroidList.append(keywords[40*i].getVector())
-    # print(keywords[i].getVector().shape)
+# centroidList = []
+# for i in range(0,200):
+#     centroidList.append(keywords[20*i].getVector())
+    
 
+# kmeansModel = KMeans(200,768,centroidCordinates=centroidList)
+# kmeansModel.fit(keywords)
 
-# print(keywords[0].getVector())
+# kmeansModel.saveModelToAFile('200centroidRobertaBaseModel.json')
 
-kmeansModel = KMeans(100,768,centroidCordinates=centroidList)
-kmeansModel.fit(keywords)
-
-kmeansModel.saveModelToAFile('100dimenModel.json')
-
-loadedModel = loadModelFromFile('100dimenModel.json')
+loadedModel = loadModelFromFile('200centroidRobertaBaseModel.json')
 loadedModel.printModel()
-# centro = Centroid(100,0)
 
-# for dimen in centro.cordinates:
-#     print(dimen)
+# model = loadModelFromFile('6dimenModel.json')
 
-
-
+# # print(model.getMatchingKeyword(""))
+print(loadedModel.getMatchingKeyword("samsung one ui"))
+print(loadedModel.getMatchingKeyword("mobile games with refresh rate 120hz"))
+print(loadedModel.getMatchingKeyword("acr recorder for android pie"))
+print(loadedModel.getMatchingKeyword("flagship phones from year 2019"))
+print(loadedModel.getMatchingKeyword("45w fast charger for samsung phones"))
+print(loadedModel.getMatchingKeyword("getting android root access with pc"))
+print(loadedModel.getMatchingKeyword("adx mobile softwear development community"))
+print(loadedModel.getMatchingKeyword("benifits of the iphone"))
+print(loadedModel.getMatchingKeyword("add boarding pass to google pay app"))
+print(loadedModel.getMatchingKeyword("activate screen call feature in google pixel 3"))
+print(loadedModel.getMatchingKeyword("install google playstore to amazon fire tablet"))
+print(loadedModel.getMatchingKeyword("turn on speed camera alerts in google maps"))
+print(loadedModel.getMatchingKeyword("oppo a37 running on android 6.0"))
+print(loadedModel.getMatchingKeyword("samsung galaxy tab s3 running on android 9 pie"))
 
 
 # items = [
