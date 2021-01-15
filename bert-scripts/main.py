@@ -1,67 +1,24 @@
-from sbert_sentence_encording import *
+from KMeans import *
 
-# encording = encodeSentence("I am using bert now for encording")
+# Loading model from saved file
+modelName = "200centroidRobertaBaseModel.json"
+kMeansModel = loadModelFromFile(modelName)
 
-import time
-
-# print("Hellow")
-
-# print(encording)
-
-sentence1 = "android is the most popular mobile os"
-sentence2 = "most of the mobile phones runs with os android"
-sentence3 = "here we are testing the semantic similarity"
-time1 = time.time()
-encording1 = encodeSentence(sentence1)
-time2 = time.time()
-encording2 = encodeSentence(sentence2)
-encording3 = encodeSentence(sentence3)
-
-print(encording1)
-
-from scipy import spatial
-time3 = time.time()
-dist1 = spatial.distance.euclidean(encording1,encording2)
-time4 = time.time()
-dist2 = spatial.distance.cosine(encording1,encording3)
-time5 = time.time()
-
-timea = time4 - time3
-timea2 = time5 - time4
-timeb = time2 - time1
-print(timea)
-print(timea2)
-print(timeb)
-print(timea/timeb)
-print(timea2/timeb)
-# print(dist1)
-# print(dist2)
-
-# import numpy as np
-# import pandas as pd
-
-# def fimport(filename,sep=',',encoding='utf-16',skiprows=0, header=0):
-# 	frame = pd.DataFrame()
-# 	frame = pd.read_csv(filename,sep=sep, skiprows=skiprows, header=header, error_bad_lines=False)
-# 	return frame
-
-# filename = 'keywordset.csv'
-# keywords = []
-
-# df = fimport(filename)
-
-# for i in range(0,len(df)):
-#     keywords.append( df.loc[i,'Keyword'] )
-
-# keywordEncodeingPairs = []
-
-# from KeywordEncodePair import KewordEncodePair
-
-# for keyword in keywords:
-#     encode = encodeSentence(keyword)
-#     pair = KewordEncodePair(keyword, encode)
-#     # keywordEncodeingPairs.append(pair)
-
-# print(len(keywordEncodeingPairs))
+# Using model to guess some random phrases 
+# # print(model.getMatchingKeyword(""))
+print(kMeansModel.getMatchingKeyword("samsung one ui"))
+print(kMeansModel.getMatchingKeyword("mobile games with refresh rate 120hz"))
+print(kMeansModel.getMatchingKeyword("acr recorder for android pie"))
+print(kMeansModel.getMatchingKeyword("flagship phones from year 2019"))
+print(kMeansModel.getMatchingKeyword("45w fast charger for samsung phones"))
+print(kMeansModel.getMatchingKeyword("getting android root access with pc"))
+print(kMeansModel.getMatchingKeyword("adx mobile softwear development community"))
+print(kMeansModel.getMatchingKeyword("benifits of the iphone"))
+print(kMeansModel.getMatchingKeyword("add boarding pass to google pay app"))
+print(kMeansModel.getMatchingKeyword("activate screen call feature in google pixel 3"))
+print(kMeansModel.getMatchingKeyword("install google playstore to amazon fire tablet"))
+print(kMeansModel.getMatchingKeyword("turn on speed camera alerts in google maps"))
+print(kMeansModel.getMatchingKeyword("oppo a37 running on android 6.0"))
+print(kMeansModel.getMatchingKeyword("samsung galaxy tab s3 running on android 9 pie"))
 
 

@@ -4,85 +4,121 @@ from scipy import spatial
 import json
 from sbert_sentence_encording import encodeSentence
 
+# This function is used to load a previouly saved model as a json file
 def loadModelFromFile(filename):
+    # opening the target json file
     with open(filename) as json_file:
         model = json.load(json_file)
+        # fetching the information about kmeans model
         dimetionality = model['dimetionality']
-        # print(dimetionality)
         noOfCentroids = model['noOfCentroids']
-        # print(noOfCentroids)
         centroidsObject = model['centroids']
+        # Creating a list for centroids and iterating over centroid item in json file
         centroids = []
         for centroidItem in centroidsObject:
+            # Fetch the details of centroid
             id = centroidItem['id']
-            # print(id)
             dimetionality = centroidItem['dimetionality']
-            # print(dimetionality)
             cordinatesArray = centroidItem['cordinates']
             itemsArray = centroidItem['items']
+            # creating a cordinate vector inizaially with zeros
             cordinates = np.zeros(shape=(1,dimetionality))
+            # Assigning cordinate values iterating through the cordinates
             for i in range(0,len(cordinatesArray)):
                 cordinates[0][i] = np.float32(cordinatesArray[i])
-            # print(cordinates)
             items = []
+            # Assigning items values iterating through the items
             for i in range(0,len(itemsArray)):
-                # print(itemsArray[i])
                 item = KeywordItem(itemsArray[i])
                 items.append(item)
+            # Creating centroid object from fetched data and appending to centroid list
             centroid = Centroid(dimetionality, id, cordinates)
             centroid.setItems(items)
             centroids.append(centroid)
+        #  Creating and returning the kmeans model from centroid list and fetched data
         kmeansModel = KMeans(noOfCentroids,dimetionality)
         kmeansModel.setCentroids(centroids)
         return kmeansModel
 
+# This function is for identifing the index of minimum value of a python list
+# This approch saves time by only iterating once at array, instead of arr.index(min(arr)) 
+def indexOfMinimum(listObj):
+    # If list if empty return None
+    if len(listObj) == 0:
+        return None
+    # Else iterate and find the min and index of min and return index
+    else:
+        min = listObj[0]
+        index = 0
+        for i in range(1,len(listObj)):
+            if (listObj[i] < min):
+                min = listObj[i]
+                index = i
+        return index
+
+# Kmeans class
 class KMeans:
 
+    # Constructor of the kmeans class
     def __init__(self,noOfCentroids, dimentionality, centroidCordinates = None):
         self.dimetionality = dimentionality
         self.noOfCentroids = noOfCentroids
         self.centroids = []
+        # if centroid cordinates are not given create centroids with random inizial values
         if (centroidCordinates == None):
             for i in range(0,self.noOfCentroids):
                 centroid = Centroid(dimentionality, i)
                 self.centroids.append(centroid)
+        # if centroid cordinates are given create centroids with given cordinates
         else:
             for i in range(0,self.noOfCentroids):
                 centroid = Centroid(dimentionality, i,centroidCordinates[i])
                 self.centroids.append(centroid)
         
-
+    # This function is used when loading the model from a file to manually set centroids
     def setCentroids(self,centroids):
         self.centroids = centroids
 
+    # Adding items to the correct centroid with the least distance
     def addItemToCentroid(self,item):
         distances = []
         itemVector = item.getVector()
+        # Calculating the distance with each centroid
         for centroid in self.centroids:
             centroidVector = centroid.getDimenVector()
             distance = spatial.distance.euclidean(itemVector, centroidVector)
             distances.append(distance)
-        indexOfMin = distances.index(min(distances))
+        # Getting the id of neighrest centroid and adding the item to that centroid
+        indexOfMin = indexOfMinimum(distances)
         self.centroids[indexOfMin].addItem(item)
     
+    # method to train the dataset on the kmeans model
     def fit(self,items):
         isCentroidsAdjustementFinished = True
+        # Run the loop until clusters converge and break the loop
         while True:
+            # At each iteration inizialy set the adjustment finish to true
             isCentroidsAdjustementFinished = True
+            # Add all the items to respective centrooids
             for item in items:
                 self.addItemToCentroid(item)
+            # After adding the items adjust the centroids to mean of items
             for centroid in self.centroids:
                 temp = centroid.adjustCentroidCordinates()
                 if (not temp):
+                    # if any of the centroid within the iteration is not in the mean position set adjustmentFinished to false
                     isCentroidsAdjustementFinished = False
             if ( isCentroidsAdjustementFinished):
                 break
+            # Setting the items in the centroids to empty array again at the end of iteration
             for centroid in self.centroids:
                 centroid.resetItems()
 
+    # Experimental method to print the architecture of the kmeans model to verify
     def printModel(self):
         print("***** Printing the Model *****")
         print("No of centroids " , self.noOfCentroids)
+        # Iterating over all centroids and printing centroid details
         for centroid in self.centroids:
             print("Centroid ", centroid.id)
             print("Elements in centroid")
@@ -90,29 +126,30 @@ class KMeans:
                 print(item.getLabel())
             print("")
     
+    # method to save the trained model as a json file
     def saveModelToAFile(self,filename):
+        # create a dictionary object and adding model details to it
         model = {}
         model['dimetionality'] = self.dimetionality
         model['noOfCentroids'] = self.noOfCentroids
         model['centroids'] = []
+        # make a list for centroids and adding each centroid as a new dic object to the list
         for centroidItem in self.centroids:
             centroid = {}
             centroid['id'] = centroidItem.id
             centroid['dimetionality'] = centroidItem.dimetionality
             centroid['cordinates'] = []
             for value in centroidItem.cordinates[0]:
-                # print("Printing value")
-                # print(value)
-                # print("value printed")
                 centroid['cordinates'].append(str(value))
             centroid['items'] = []
             for item in centroidItem.items:
-                # print(item.getLabel())
                 centroid['items'].append(item.getLabel())
             model['centroids'].append(centroid)
+        # Dumping the dic as a json file to the file
         with open(filename,'w') as output:
             json.dump(model,output)
 
+    # Method to getting the maching keyword from the model
     def getMatchingKeyword(self,phrase):
         encording = encodeSentence(phrase)
         # getting the winiing centroid
@@ -121,7 +158,7 @@ class KMeans:
             centroidVector = centroid.getDimenVector()
             distance = spatial.distance.euclidean(encording, centroidVector)
             centroidDistances.append(distance)
-        winnerCentroidId = centroidDistances.index(min(centroidDistances))
+        winnerCentroidId = indexOfMinimum(centroidDistances)
         winnerCentroid = self.centroids[winnerCentroidId]
 
         # getting the most simillar keyword item from the centroid
@@ -130,164 +167,107 @@ class KMeans:
             itemVector = keywordItem.getVector()
             distance = spatial.distance.euclidean(encording, itemVector)
             keywordDistances.append(distance)
-        winnerKeywordId = keywordDistances.index(min(keywordDistances))
+        winnerKeywordId = indexOfMinimum(keywordDistances)
         winnerKeyword = winnerCentroid.items[winnerKeywordId]
 
         return winnerKeyword.getLabel()
         
-
-
-
-
+# Centroid class
 class Centroid:
 
+    # constructor of the centroid class
     def __init__(self, dimentionality, id, centroidCordinate = None):
         self.id = id
         self.dimetionality = dimentionality
+        # If no inizial cordinates are given the random cordinates will be genarated to the centroid
         if centroidCordinate is None :
             self.cordinates = np.random.rand(1,self.dimetionality)
+        # If cordinates are given then set those cordinates as the centroid cordinates
         else:
             self.cordinates = centroidCordinate
         self.items = []
         
+    # used to set items manually when loading model from file
     def setItems(self,items):
         self.items = items 
 
+    # Adding a item to centroid
     def addItem(self, item):
         self.items.append(item)
 
+    # method to query the dimention vector of a centroid
     def getDimenVector(self):
         return self.cordinates
 
+    # method to adjust the dimentions of the centroid accorting to the items in the centroid
+    # returns a boolian value weather the centroid is adjusted or not
     def adjustCentroidCordinates(self):
+        # first create a vector for new cordinates inizialize with zeros
         numOfItems = len(self.items)
         newCordinates = np.zeros(shape=(1,self.dimetionality))
         
+        # get the number of items as the divider
         devider = np.array(numOfItems)
         for item in self.items:
+            # get the vector of each item
             vector = item.getVector()
+            # divide it by devider to get the value it contribute to mean
             meanedVector = vector / devider
+            # add the mean value to new cordinate vector
             newCordinates = np.add(newCordinates,meanedVector)
+        # check weather the new vector is similar to the already exisiting vector
         isArraySimilar = np.allclose(self.cordinates,newCordinates)
         print(isArraySimilar)
         if (isArraySimilar): 
+            # if similar return adjustment finished
             return True
         else:
+            # if not similar assign the new cordinates as the cordinates of the centroid and return adjustment is not finished
             self.cordinates = newCordinates
             return False
     
+    # reset the items to a empty list used in the training process
     def resetItems(self):
         self.items = []
 
-class Item:
-
-    def __init__(self, lable, vector= None):
-        self.lable = lable
-        self.vector = vector
-
-    def getVector(self):
-        return self.vector
-
-    def getLabel(self):
-        return self.lable
-
+# Keyword item class keyword items objects are used to hold keyword items with in the model
 class KeywordItem:
 
+    # constructor of the class
     def __init__(self,keyword):
         self.lable = keyword
 
+    # return the keyword of the object
     def getLabel(self):
         return self.lable
     
+    # return the vector representation of the keyword by encording it by bert model
     def getVector(self):
         encording = encodeSentence(self.getLabel())
         return encording
 
-# import pandas as pd
-
-# def fimport(filename,sep=',',encoding='utf-16',skiprows=0, header=0):
-# 	frame = pd.DataFrame()
-# 	frame = pd.read_csv(filename,sep=sep, skiprows=skiprows, header=header, error_bad_lines=False)
-# 	return frame
-
-# filename = 'keywordset.csv'
-# keywords = []
-
-# df = fimport(filename)
-
-# for i in range(0, len(df)):
-#     keywords.append( KeywordItem(df.loc[i,'Keyword']) )
-
-# centroidList = []
-# for i in range(0,200):
-#     centroidList.append(keywords[20*i].getVector())
-    
-
-# kmeansModel = KMeans(200,768,centroidCordinates=centroidList)
-# kmeansModel.fit(keywords)
-
-# kmeansModel.saveModelToAFile('200centroidRobertaBaseModel.json')
-
-loadedModel = loadModelFromFile('200centroidRobertaBaseModel.json')
-loadedModel.printModel()
-
-# model = loadModelFromFile('6dimenModel.json')
-
-# # print(model.getMatchingKeyword(""))
-print(loadedModel.getMatchingKeyword("samsung one ui"))
-print(loadedModel.getMatchingKeyword("mobile games with refresh rate 120hz"))
-print(loadedModel.getMatchingKeyword("acr recorder for android pie"))
-print(loadedModel.getMatchingKeyword("flagship phones from year 2019"))
-print(loadedModel.getMatchingKeyword("45w fast charger for samsung phones"))
-print(loadedModel.getMatchingKeyword("getting android root access with pc"))
-print(loadedModel.getMatchingKeyword("adx mobile softwear development community"))
-print(loadedModel.getMatchingKeyword("benifits of the iphone"))
-print(loadedModel.getMatchingKeyword("add boarding pass to google pay app"))
-print(loadedModel.getMatchingKeyword("activate screen call feature in google pixel 3"))
-print(loadedModel.getMatchingKeyword("install google playstore to amazon fire tablet"))
-print(loadedModel.getMatchingKeyword("turn on speed camera alerts in google maps"))
-print(loadedModel.getMatchingKeyword("oppo a37 running on android 6.0"))
-print(loadedModel.getMatchingKeyword("samsung galaxy tab s3 running on android 9 pie"))
 
 
-# items = [
-#     Item("A",np.array([0.2,0.3])),
-#     Item("B",np.array([0.5,0.1])),
-#     Item("C",np.array([0.5,0.5])),
-#     Item("D",np.array([0.6,0.9])),
-#     Item("E",np.array([0.8,0.7])),
-#     Item("F",np.array([1.0,0.8]))
-# ]
 
-# model = KMeans(2,2)
 
-# model.fit(items)
 
-# model.saveModelToAFile('test.json')
+# loadedModel = loadModelFromFile('17centroidRobertaBaseModel.json')
+# # loadedModel.printModel()
 
-# kModel = loadModelFromFile('test.json')
+# # # print(model.getMatchingKeyword(""))
+# print(loadedModel.getMatchingKeyword("samsung one ui"))
+# print(loadedModel.getMatchingKeyword("mobile games with refresh rate 120hz"))
+# print(loadedModel.getMatchingKeyword("acr recorder for android pie"))
+# print(loadedModel.getMatchingKeyword("flagship phones from year 2019"))
+# print(loadedModel.getMatchingKeyword("45w fast charger for samsung phones"))
+# print(loadedModel.getMatchingKeyword("getting android root access with pc"))
+# print(loadedModel.getMatchingKeyword("adx mobile softwear development community"))
+# print(loadedModel.getMatchingKeyword("benifits of the iphone"))
+# print(loadedModel.getMatchingKeyword("add boarding pass to google pay app"))
+# print(loadedModel.getMatchingKeyword("activate screen call feature in google pixel 3"))
+# print(loadedModel.getMatchingKeyword("install google playstore to amazon fire tablet"))
+# print(loadedModel.getMatchingKeyword("turn on speed camera alerts in google maps"))
+# print(loadedModel.getMatchingKeyword("oppo a37 running on android 6.0"))
+# print(loadedModel.getMatchingKeyword("samsung galaxy tab s3 running on android 9 pie"))
 
-# kModel.printModel()
-# cetroids = model.centroids
 
-# centroid1 = cetroids[0]
-
-# print("Centroid 1")
-
-# print("Centroid Cordinates ")
-# print(centroid1.cordinates)
-# print("")
-
-# for item in centroid1.items:
-#     print(item.lable)
-
-# centroid2 = cetroids[1]
-
-# print("Centroid 2")
-
-# print("Centroid Cordinates ")
-# print(centroid2.cordinates)
-# print("")
-
-# for item in centroid2.items:
-#     print(item.lable)
