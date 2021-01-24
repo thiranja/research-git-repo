@@ -4,6 +4,10 @@ from scipy import spatial
 import json
 from sbert_sentence_encording import encodeSentence
 
+# String to return when no keyword is matching
+NO_KEYWORD_MATCHING_STRING = "No Keyword Matching"
+SEMANTIC_DISTANCE_THRESHOLD = 15.0
+
 # This function is used to load a previouly saved model as a json file
 def loadModelFromFile(filename):
     # opening the target json file
@@ -170,7 +174,52 @@ class KMeans:
         winnerKeywordId = indexOfMinimum(keywordDistances)
         winnerKeyword = winnerCentroid.items[winnerKeywordId]
 
-        return winnerKeyword.getLabel()
+        # Semantic similarity threshold this value is used to make sure weather the matching keyword is confident enogough to say similar
+        if (keywordDistances[winnerKeywordId] < SEMANTIC_DISTANCE_THRESHOLD):
+            return winnerKeyword.getLabel()
+        return NO_KEYWORD_MATCHING_STRING
+    
+    # getting the whole list of keyword suggesions
+    def getMatchingKeywordSuggesions(self, phrase):
+        encording = encodeSentence(phrase)
+        # getting the winiing centroid
+        centroidDistances = []
+        for centroid in self.centroids:
+            centroidVector = centroid.getDimenVector()
+            distance = spatial.distance.euclidean(encording, centroidVector)
+            centroidDistances.append(distance)
+        winnerCentroidId = indexOfMinimum(centroidDistances)
+        winnerCentroid = self.centroids[winnerCentroidId]
+
+        # create an array for store matching keyword suggesions
+        matchingKeywordSuggesions = []
+
+        # getting the most simillar keyword item from the centroid
+        keywordDistances = []
+        for keywordItem in winnerCentroid.items:
+            itemVector = keywordItem.getVector()
+            distance = spatial.distance.euclidean(encording, itemVector)
+            # adding keywords for suggesions if there exist keywords that below the semantic distance threshold
+            if (distance < SEMANTIC_DISTANCE_THRESHOLD):
+                matchingKeywordSuggesions.append(keywordItem.getLabel())
+            keywordDistances.append(distance)
+        return matchingKeywordSuggesions
+
+    # method to evaluate the model with the test dataset
+    def evaluate(self, x, y):
+        correctGuesses = 0;
+        TotalNumber = len(x)
+
+        print("%-60s %-60s %-60s" %("Text Phrase","Model Guesed Keyword","Keyword"))
+        for i in range(0, len(x)):
+            textPhrase = x[i]
+            trueKeyword = y[i]
+            guesedKeyword = self.getMatchingKeyword(textPhrase)
+            if (guesedKeyword == trueKeyword):
+                correctGuesses = correctGuesses +1
+            print("%-60s %-60s %-60s" %(textPhrase, guesedKeyword, trueKeyword))
+        accuracy = (correctGuesses/TotalNumber)*100
+        print("Accuracy ",accuracy,"%")
         
 # Centroid class
 class Centroid:
@@ -245,29 +294,3 @@ class KeywordItem:
     def getVector(self):
         encording = encodeSentence(self.getLabel())
         return encording
-
-
-
-
-
-
-# loadedModel = loadModelFromFile('17centroidRobertaBaseModel.json')
-# # loadedModel.printModel()
-
-# # # print(model.getMatchingKeyword(""))
-# print(loadedModel.getMatchingKeyword("samsung one ui"))
-# print(loadedModel.getMatchingKeyword("mobile games with refresh rate 120hz"))
-# print(loadedModel.getMatchingKeyword("acr recorder for android pie"))
-# print(loadedModel.getMatchingKeyword("flagship phones from year 2019"))
-# print(loadedModel.getMatchingKeyword("45w fast charger for samsung phones"))
-# print(loadedModel.getMatchingKeyword("getting android root access with pc"))
-# print(loadedModel.getMatchingKeyword("adx mobile softwear development community"))
-# print(loadedModel.getMatchingKeyword("benifits of the iphone"))
-# print(loadedModel.getMatchingKeyword("add boarding pass to google pay app"))
-# print(loadedModel.getMatchingKeyword("activate screen call feature in google pixel 3"))
-# print(loadedModel.getMatchingKeyword("install google playstore to amazon fire tablet"))
-# print(loadedModel.getMatchingKeyword("turn on speed camera alerts in google maps"))
-# print(loadedModel.getMatchingKeyword("oppo a37 running on android 6.0"))
-# print(loadedModel.getMatchingKeyword("samsung galaxy tab s3 running on android 9 pie"))
-
-
