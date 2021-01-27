@@ -206,7 +206,7 @@ class KMeans:
         return matchingKeywordSuggesions
 
     # method to evaluate the model with the test dataset
-    def evaluate(self, x, y):
+    def evaluate(self, x, y, usingSingleKeywordGuess = False):
         correctGuesses = 0;
         TotalNumber = len(x)
 
@@ -214,10 +214,22 @@ class KMeans:
         for i in range(0, len(x)):
             textPhrase = x[i]
             trueKeyword = y[i]
-            guesedKeyword = self.getMatchingKeyword(textPhrase)
-            if (guesedKeyword == trueKeyword):
-                correctGuesses = correctGuesses +1
-            print("%-60s %-60s %-60s" %(textPhrase, guesedKeyword, trueKeyword))
+            if usingSingleKeywordGuess:
+                guesedKeyword = self.getMatchingKeyword(textPhrase)
+                if (guesedKeyword == trueKeyword):
+                    correctGuesses = correctGuesses +1
+                print("%-60s %-60s %-60s" %(textPhrase, guesedKeyword, trueKeyword))
+            else:
+                guesedKeywords = self.getMatchingKeywordSuggesions(textPhrase)
+                print("%-30s - %-60s" %("Text Phrase", textPhrase))
+                print("%-30s - %-60s" %("Expected Keyword", trueKeyword))
+                print()
+                print("Guessed Keywords")
+                for guess in guesedKeywords:
+                    print(guess)
+                    if (guess == trueKeyword):
+                        correctGuesses = correctGuesses + 1
+                print()
         accuracy = (correctGuesses/TotalNumber)*100
         print("Accuracy ",accuracy,"%")
         

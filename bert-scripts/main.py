@@ -23,7 +23,7 @@ print(y[0])
 # Loading model from saved files
 modelName = "200centroidRobertaBaseModel.json"
 kMeansModel = loadModelFromFile(modelName)
-kMeansModel.evaluate(x,y)
+kMeansModel.evaluate(x,y,True)
 
 # textPhrases = [
 #     "samsung one ui",
@@ -42,7 +42,9 @@ kMeansModel.evaluate(x,y)
 #     "samsung galaxy tab s3 running on android 9 pie",
 #     "I am trying to read a book",
 #     "Doctor went to the hospital",
-#     "pass the beer"
+#     "pass the beer",
+#     "apps always move back to the internal storage",
+#     "review on asus max pro m2's camera"
 # ]
 
 # for phrase in textPhrases:
