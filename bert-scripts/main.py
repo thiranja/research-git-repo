@@ -1,7 +1,8 @@
 from KMeans import *
 from fileManipulation import fimport
 
-filename = "demo_testset.csv"
+# filename = "demo_testset.csv"
+filename = "dataset_final.csv"
 
 df = fimport(filename)
 
@@ -23,7 +24,8 @@ print(y[0])
 # Loading model from saved files
 modelName = "200centroidRobertaBaseModel.json"
 kMeansModel = loadModelFromFile(modelName)
-kMeansModel.evaluate(x,y,True)
+# kMeansModel.evaluate(x,y)
+kMeansModel.evaluateWithMultipleKeywordSuggestions(x,y)
 
 # textPhrases = [
 #     "samsung one ui",
@@ -44,7 +46,9 @@ kMeansModel.evaluate(x,y,True)
 #     "Doctor went to the hospital",
 #     "pass the beer",
 #     "apps always move back to the internal storage",
-#     "review on asus max pro m2's camera"
+#     "review on asus max pro m2's camera",
+#     "best cheap verizon phone from 2019",
+#     "micro sd card best suited for samsung s8"
 # ]
 
 # for phrase in textPhrases:
@@ -76,5 +80,7 @@ kMeansModel.evaluate(x,y,True)
 # print(kMeansModel.getMatchingKeyword("I am trying to read a book"))
 # print(kMeansModel.getMatchingKeyword("Doctor went to the hospital"))
 # print(kMeansModel.getMatchingKeyword("pass the beer"))
+print(kMeansModel.getMatchingKeyword("micro sd card best suited for samsung s8"))
+
 
 

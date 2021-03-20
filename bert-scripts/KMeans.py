@@ -90,7 +90,7 @@ class KMeans:
         # Calculating the distance with each centroid
         for centroid in self.centroids:
             centroidVector = centroid.getDimenVector()
-            distance = spatial.distance.euclidean(itemVector, centroidVector)
+            distance = spatial.distance.cosine(itemVector, centroidVector)
             distances.append(distance)
         # Getting the id of neighrest centroid and adding the item to that centroid
         indexOfMin = indexOfMinimum(distances)
@@ -160,7 +160,7 @@ class KMeans:
         centroidDistances = []
         for centroid in self.centroids:
             centroidVector = centroid.getDimenVector()
-            distance = spatial.distance.euclidean(encording, centroidVector)
+            distance = spatial.distance.cosine(encording, centroidVector)
             centroidDistances.append(distance)
         winnerCentroidId = indexOfMinimum(centroidDistances)
         winnerCentroid = self.centroids[winnerCentroidId]
@@ -169,7 +169,7 @@ class KMeans:
         keywordDistances = []
         for keywordItem in winnerCentroid.items:
             itemVector = keywordItem.getVector()
-            distance = spatial.distance.euclidean(encording, itemVector)
+            distance = spatial.distance.cosine(encording, itemVector)
             keywordDistances.append(distance)
         winnerKeywordId = indexOfMinimum(keywordDistances)
         winnerKeyword = winnerCentroid.items[winnerKeywordId]
@@ -186,7 +186,7 @@ class KMeans:
         centroidDistances = []
         for centroid in self.centroids:
             centroidVector = centroid.getDimenVector()
-            distance = spatial.distance.euclidean(encording, centroidVector)
+            distance = spatial.distance.cosine(encording, centroidVector)
             centroidDistances.append(distance)
         winnerCentroidId = indexOfMinimum(centroidDistances)
         winnerCentroid = self.centroids[winnerCentroidId]
@@ -198,7 +198,7 @@ class KMeans:
         keywordDistances = []
         for keywordItem in winnerCentroid.items:
             itemVector = keywordItem.getVector()
-            distance = spatial.distance.euclidean(encording, itemVector)
+            distance = spatial.distance.cosine(encording, itemVector)
             # adding keywords for suggesions if there exist keywords that below the semantic distance threshold
             if (distance < SEMANTIC_DISTANCE_THRESHOLD):
                 matchingKeywordSuggesions.append(keywordItem.getLabel())
@@ -206,7 +206,7 @@ class KMeans:
         return matchingKeywordSuggesions
 
     # method to evaluate the model with the test dataset
-    def evaluate(self, x, y, usingSingleKeywordGuess = False):
+    def evaluate(self, x, y):
         correctGuesses = 0;
         TotalNumber = len(x)
 
@@ -214,25 +214,36 @@ class KMeans:
         for i in range(0, len(x)):
             textPhrase = x[i]
             trueKeyword = y[i]
-            if usingSingleKeywordGuess:
-                guesedKeyword = self.getMatchingKeyword(textPhrase)
-                if (guesedKeyword == trueKeyword):
-                    correctGuesses = correctGuesses +1
-                print("%-60s %-60s %-60s" %(textPhrase, guesedKeyword, trueKeyword))
-            else:
-                guesedKeywords = self.getMatchingKeywordSuggesions(textPhrase)
-                print("%-30s - %-60s" %("Text Phrase", textPhrase))
-                print("%-30s - %-60s" %("Expected Keyword", trueKeyword))
-                print()
-                print("Guessed Keywords")
-                for guess in guesedKeywords:
-                    print(guess)
-                    if (guess == trueKeyword):
-                        correctGuesses = correctGuesses + 1
-                print()
+
+            guesedKeyword = self.getMatchingKeyword(textPhrase)
+            if (guesedKeyword == trueKeyword):
+                correctGuesses = correctGuesses +1
+            print("%-60s %-60s %-60s" %(textPhrase, guesedKeyword, trueKeyword))
         accuracy = (correctGuesses/TotalNumber)*100
         print("Accuracy ",accuracy,"%")
         
+    def evaluateWithMultipleKeywordSuggestions(self, x, y):
+        correctGuesses = 0;
+        TotalNumber = len(x)
+
+        print("%-60s %-60s %-60s" %("Text Phrase","Model Guesed Keyword","Keyword"))
+
+        for i in range(0, len(x)):
+            textPhrase = x[i]
+            trueKeyword = y[i]
+            guesedKeywords = self.getMatchingKeywordSuggesions(textPhrase)
+            print("%-30s - %-60s" %("Text Phrase", textPhrase))
+            print("%-30s - %-60s" %("Expected Keyword", trueKeyword))
+            print()
+            print("Guessed Keywords")
+            for guess in guesedKeywords:
+                print(guess)
+                if (guess == trueKeyword):
+                    correctGuesses = correctGuesses + 1
+            print()
+        accuracy = (correctGuesses/TotalNumber)*100
+        print("Accuracy ",accuracy,"%")
+
 # Centroid class
 class Centroid:
 
