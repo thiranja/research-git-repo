@@ -66,7 +66,6 @@ def removeSubstringKeywords(keywords, newKeywords):
         canAppendKeyword = True
         newKeywordsLength = len(newKeywords)
         for j in range ( 0, newKeywordsLength):
-            #print(newKeywords)
             newKeyword = newKeywords[j]
             if isSubphrase(keyword,newKeyword):
                 canAppendKeyword = False
@@ -82,10 +81,6 @@ removeSubstringKeywords(uniqueKeywords,subSetRemovedKeywords)
 
 print( len(subSetRemovedKeywords))
 
-# for i in range(0,len(uniqueKeywords) ):
-# 	print(uniqueKeywords[i])
-
-# writing keywords into a csv.file
 import csv
 
 file = open('unique.csv','w', newline='')

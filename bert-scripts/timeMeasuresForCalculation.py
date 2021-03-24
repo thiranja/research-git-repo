@@ -30,4 +30,4 @@ print(timeForCalculatingEuclidianDistance)
 print(timeForCalculatingCosineDistance)
 
 # calculating the distance ratio in the final equation
-print((timeForEncordingSentence + timeForCalculatingEuclidianDistance)/timeForCalculatingEuclidianDistance)
+print((timeForEncordingSentence + timeForCalculatingCosineDistance)/timeForCalculatingCosineDistance)
